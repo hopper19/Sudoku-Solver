@@ -202,7 +202,7 @@ def sudoku(puzzle):
     return grid
 
 tot = 0
-runs = 10000
+runs = int(input("How many runs? "))
 max = 0
 min = 1000
 for i in range(0,runs):
